@@ -16,4 +16,4 @@
 	"api-network" : true,
 	"api-allow" : "W:0/0",
 	"bitmain-freq" : 600
-	}
+}
