@@ -1,16 +1,16 @@
 {
   "pools": [
-    {
-      "user": "andry21.002",
-      "url": "stratum+tcp://btc.f2pool.com:1314",
+  
+      "user": "xxxxxxxxx.a",
+      "url": "stratum+tcp://47.254.129.206:1883",
+      "pools": [
+    }, {
+      "user": "xxxxxxxxx.a",
+      "url": "stratum+tcp://47.254.129.206:443",
       "pass": ""
     }, {
-      "user": "andry21.002",
-      "url": "stratum+tcp://btc.f2pool.com:1314",
-      "pass": ""
-    }, {
-      "user": "andry21.002",
-      "url": "stratum+tcp://btc.f2pool.com:1314",
+      "user": "",
+      "url": "",
       "pass": ""
     }
   ],
