@@ -42,11 +42,13 @@ do_start() {
 		echo "Have bitmain-axi"
 	fi
 	killall -9 bmminer || true
-        /usr/bin/bmminer --fixed-freq --no-pre-heat --version-file /usr/bin/compile_time --api-listen --default-config /config/Fee.json &
+    killall -9 single-board-test || true
+    single-board-test&	
 }
 
 do_stop() {
         killall -9 bmminer || true
+        killall -9 single-board-test || true
 }
 case "$1" in
   start)
